@@ -1,4 +1,4 @@
-export type CovidData = {
+export type CovidStatistics = {
   country: string;
   country_code: string;
   continent: string;
@@ -8,4 +8,10 @@ export type CovidData = {
   year_week: string;
   cumulative_count: number;
   source: string;
+};
+
+export type CasesDeathsStatistics = {
+  year_week: string;
+  cases: number;
+  deaths: number;
 };

@@ -1,4 +1,4 @@
 {
-  "packages": ["server", "client"],
+  "packages": ["server", "client", "shared"],
   "version": "0.0.0"
 }
